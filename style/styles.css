@@ -1,0 +1,53 @@
+html {
+    font-family: "Roboto", sans-serif;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    
+}
+
+header,
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    flex-wrap: wrap;
+    & ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    }
+}
+
+.placehold-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 50px;
+    align-items: center;
+}
+
+.placehold-left {
+    flex-basis: 28%;
+    flex-wrap: wrap;
+}
+
+
+img {
+    width: 300px;
+    height: 200px;
+}
