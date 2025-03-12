@@ -11,7 +11,8 @@ body {
 }
 
 header,
-footer {
+footer,
+a {
     background-color: #1F2937;
     color: #F9FAF8;
 }
@@ -20,13 +21,15 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    align-content: space-between;
 }
 
 nav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex: 1;
     flex-wrap: wrap;
+    margin: 0px 180px;
     & ul {
     list-style: none;
     display: flex;
@@ -34,20 +37,52 @@ nav {
     }
 }
 
-.placehold-container {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 50px 50px;
-    align-items: center;
+a {
+    text-decoration: none;
+
 }
 
-.placehold-left {
+.header-bottom {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    align-items: center;
+
+}
+
+.head-bot-left {
     flex-basis: 28%;
     flex-wrap: wrap;
 }
 
 
-img {
+.placeholder img {
     width: 300px;
     height: 200px;
 }
+
+.random-facts {
+    text-align: center;
+
+    & > h2 {
+        padding: 10px 0px;
+    }
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.info {
+    flex-basis: 15%;
+    & > img {
+    border: 3px solid #3882F6;
+    border-radius: 30%;
+    width: 100px;
+    height: 100px;
+    }
+}
+
