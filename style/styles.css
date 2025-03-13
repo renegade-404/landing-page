@@ -103,9 +103,17 @@ blockquote {
     justify-content: center;
     align-items: center;
 
-    & > * {
+    & > p {
         flex-basis: 5%;
         width: 40%;
+    }
+    & p:nth-child(2) {
+        text-align: end;
+        font-weight: bold;   
+    }
+    & p:nth-child(1) {
+        font-style: italic;
+        font-size: 26px;   
     }
 }
 
