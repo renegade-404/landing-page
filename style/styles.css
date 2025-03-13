@@ -26,10 +26,10 @@ header {
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     flex: 1;
     flex-wrap: wrap;
-    margin: 0px 180px;
     & ul {
     list-style: none;
     display: flex;
