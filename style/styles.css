@@ -39,7 +39,6 @@ nav {
 
 a {
     text-decoration: none;
-
 }
 
 .header-bottom {
@@ -47,12 +46,20 @@ a {
     justify-content: space-around;
     padding: 50px;
     align-items: center;
-
 }
 
 .head-bot-left {
     flex-basis: 28%;
     flex-wrap: wrap;
+
+    & > button {
+        background-color: #3882F6;
+        border-radius: 10px;
+        border-color: #3882F6;
+        color: #F9FAF8;
+        font-weight: bold;
+        padding: 5px 25px;
+    }
 }
 
 
@@ -100,4 +107,35 @@ blockquote {
         flex-basis: 5%;
         width: 40%;
     }
+}
+
+.newsletter-sign-up {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: auto;
+    padding: 50px;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    & > button {
+        background-color: #3882F6;
+        border-radius: 10px;
+        border-color: #F9FAF8;
+        color: #F9FAF8;
+        padding: 10px 30px;
+        font-weight: bold;
+    }
+}
+
+.attention-mess p, h2 {
+    margin: 0;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px 0px;
+    text-align: center;
 }
