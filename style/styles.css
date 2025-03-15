@@ -43,7 +43,7 @@ a {
 
 .header-bottom {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 50px;
     align-items: center;
 }
@@ -64,7 +64,7 @@ a {
 
 
 .placeholder img {
-    width: 300px;
+    width: 350px;
     height: 200px;
 }
 
@@ -72,7 +72,7 @@ a {
     text-align: center;
 
     & > h2 {
-        padding: 10px 0px;
+        padding: 30px 0px;
     }
 }
 
@@ -113,7 +113,7 @@ blockquote {
     }
     & p:nth-child(1) {
         font-style: italic;
-        font-size: 26px;   
+        font-size: 26px; 
     }
 }
 
